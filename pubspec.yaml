@@ -1,0 +1,94 @@
+name: et_lab_clinica_painel
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  et_lab_clinica_core:
+    path: ../et_lab_clinica_core
+  flutter_getit: ^2.0.0
+  dio: ^5.4.0
+  shared_preferences: ^2.2.2
+  signals_flutter: ^3.0.0
+  asyncstate: ^2.1.1-dev.1
+  validatorless: ^1.2.3
+  json_annotation: ^4.8.1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.8
+  
+
+  
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+  
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/font/Montserrat-Thin.ttf
+          weight: 100
+        - asset: assets/font/Montserrat-ThinItalic.ttf
+          style: italic
+          weight: 100
+        - asset: assets/font/Montserrat-ExtraLight.ttf
+          weight: 200
+        - asset: assets/font/Montserrat-ExtraLightItalic.ttf
+          style: italic
+          weight: 200
+        - asset: assets/font/Montserrat-Light.ttf
+          weight: 300
+        - asset: assets/font/Montserrat-LightItalic.ttf
+          style: italic
+          weight: 300
+        - asset: assets/font/Montserrat-Regular.ttf
+          weight: 400
+        - asset: assets/font/Montserrat-Italic.ttf
+          style: italic
+          weight: 400
+        - asset: assets/font/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/font/Montserrat-MediumItalic.ttf
+          style: italic
+          weight: 500
+        - asset: assets/font/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/font/Montserrat-SemiBoldItalic.ttf
+          style: italic
+          weight: 600
+        - asset: assets/font/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/font/Montserrat-BoldItalic.ttf
+          style: italic
+          weight: 700
+        - asset: assets/font/Montserrat-ExtraBold.ttf
+          weight: 800
+        - asset: assets/font/Montserrat-ExtraBoldItalic.ttf
+          style: italic
+          weight: 800
+        - asset: assets/font/Montserrat-Black.ttf
+          weight: 900
+        - asset: assets/font/Montserrat-BlackItalic.ttf
+          style: italic
+          weight: 900
+        
