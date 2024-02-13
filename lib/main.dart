@@ -11,6 +11,7 @@ void main() {
   runApp(const LabClinicaPainelApp());
 }
 
+//INICIANDO O PROJETO
 class LabClinicaPainelApp extends StatelessWidget {
   const LabClinicaPainelApp({super.key});
 
