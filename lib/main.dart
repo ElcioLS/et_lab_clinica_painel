@@ -1,3 +1,4 @@
+import 'package:et_lab_clinica_painel/src/pages/painel/painel_router.dart';
 import 'package:flutter/material.dart';
 
 import 'package:et_lab_clinica_core/et_lab_clinica_core.dart';
@@ -22,15 +23,10 @@ class LabClinicaPainelApp extends StatelessWidget {
       binding: LabClinicaApplicationBinding(),
       pagesBuilders: [
         FlutterGetItPageBuilder(page: (_) => const SplashPage(), path: '/'),
-        FlutterGetItPageBuilder(
-            page: (_) => const Text('Estou na Home'), path: '/home'),
       ],
       pages: const [
         LoginRouter(),
-        // HomeRouter(),
-        // PreCheckinRouter(),
-        // CheckinRouter(),
-        // EndCheckinRouter(),
+        PainelRouter(),
       ],
     );
   }
