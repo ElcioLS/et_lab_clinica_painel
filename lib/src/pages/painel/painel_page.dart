@@ -2,6 +2,8 @@ import 'package:et_lab_clinica_core/et_lab_clinica_core.dart';
 import 'package:et_lab_clinica_painel/src/pages/painel/widgets/painel_principal_widget.dart';
 import 'package:flutter/material.dart';
 
+import 'widgets/password_tile.dart';
+
 class PainelPage extends StatelessWidget {
   const PainelPage({super.key});
 
@@ -39,6 +41,26 @@ class PainelPage extends StatelessWidget {
                 ),
               ],
             ),
+            const SizedBox(height: 40),
+            const Divider(color: LabClinicaTheme.orangeColor),
+            const SizedBox(height: 30),
+            const Text(
+              'Ultimos Chamados',
+              style: TextStyle(
+                  fontSize: 22,
+                  fontWeight: FontWeight.bold,
+                  color: LabClinicaTheme.orangeColor),
+            ),
+            const SizedBox(height: 16),
+            const Wrap(
+              runAlignment: WrapAlignment.center,
+              spacing: 10,
+              runSpacing: 10,
+              children: [
+                PasswordTile(),
+              ],
+            ),
+            const SizedBox(height: 16),
           ],
         ),
       ),
