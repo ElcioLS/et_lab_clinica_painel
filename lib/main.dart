@@ -19,7 +19,7 @@ class LabClinicaPainelApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return LabClinicaCoreConfig(
-      title: 'Lab Clinica ADM',
+      title: 'Painel TV Lab Clinica',
       binding: LabClinicaApplicationBinding(),
       pagesBuilders: [
         FlutterGetItPageBuilder(page: (_) => const SplashPage(), path: '/'),
